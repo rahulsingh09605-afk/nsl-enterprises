@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#073b78">
+<title>NSL Enterprises | Solar Solutions & Support</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:#f4f8ff;color:#172b46}
+:root{--blue:#0876df;--dark:#062b59;--light:#eaf4ff}
+header{background:#062b59;color:white;padding:17px 6%;display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap}
+.logo{font-size:23px;font-weight:900;letter-spacing:1px}
+.logo span{color:#50b9ff}
+nav{display:flex;gap:18px;flex-wrap:wrap}
+nav a{color:white;text-decoration:none;font-size:14px}
+.hero{background:linear-gradient(120deg,#052956,#0878df);color:white;padding:85px 7%;text-align:center}
+.hero .tag{background:#ffffff25;padding:9px 16px;border-radius:30px;font-size:13px}
+.hero h1{font-size:clamp(32px,6vw,55px);margin:25px 0 15px}
+.hero p{max-width:680px;margin:auto;line-height:1.8;color:#e4f2ff}
+.btn{display:inline-block;padding:14px 23px;border-radius:9px;text-decoration:none;font-weight:bold;margin:15px 5px;background:#fff;color:#0756a7}
+.btn.blue{background:#08a0e9;color:white}
+.container{max-width:1100px;margin:auto;padding:48px 18px}
+.heading{text-align:center;margin-bottom:28px}
+.heading h2{font-size:29px;color:var(--dark);margin-bottom:10px}
+.heading p{color:#64748b;line-height:1.6}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{background:white;padding:25px;border-radius:15px;box-shadow:0 5px 22px #153f7010;border:1px solid #e0eaf6}
+.card .symbol{font-size:35px;margin-bottom:14px}
+.card h3{color:#07549b;margin-bottom:10px}
+.card p{color:#63748b;line-height:1.7;font-size:14px}
+.form-section{background:white;border-radius:18px;padding:28px;box-shadow:0 8px 30px #153f7010}
+label{display:block;font-weight:bold;font-size:14px;margin:16px 0 7px}
+input,select,textarea{width:100%;padding:13px;border:1px solid #cedbea;border-radius:8px;font-size:15px;background:#fff}
+textarea{height:110px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:2px solid #a5d2ff}
+.form-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.problem-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;margin-top:10px}
+.problem-list label{margin:0;padding:12px;border:1px solid #dce7f4;border-radius:9px;font-weight:normal}
+.problem-list input{width:auto;margin-right:8px}
+.submit{width:100%;background:#0876df;color:white;border:0;padding:16px;border-radius:9px;font-size:16px;font-weight:bold;margin-top:22px}
+.contact{background:#e7f3ff;text-align:center;border-radius:17px;padding:35px}
+.contact h2{color:#073b78;margin-bottom:12px}
+.contact p{line-height:1.8;color:#536a84}
+.trust{border:1px solid #dce7f4;background:white;border-radius:15px;padding:25px;text-align:center}
+.inactive{display:inline-block;background:#fff0dc;color:#955300;padding:7px 14px;border-radius:20px;font-size:12px;font-weight:bold;margin-top:12px}
+footer{background:#05264e;color:white;text-align:center;padding:30px 15px;line-height:2}
+footer a{color:#9dd7ff;text-decoration:none}
+.float{position:fixed;bottom:18px;right:15px;background:#16a34a;color:white;padding:14px 18px;border-radius:40px;text-decoration:none;font-weight:bold;box-shadow:0 5px 20px #0003;z-index:10}
+@media(max-width:600px){header{justify-content:center;text-align:center}nav{justify-content:center}.hero{padding:60px 18px}.form-section{padding:18px}}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">NSL <span>ENTERPRISES</span></div>
+<nav>
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#complaint">Complaint</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero" id="home">
+<span class="tag">YOUR TRUSTED SOLAR SERVICE PARTNER</span>
+<h1>Power Your Future With Solar Energy</h1>
+<p>Solar panel, inverter, battery aur maintenance se judi samasyaon ke liye NSL Enterprises se sampark karein. Aapki complaint hamare liye mahatvapurn hai.</p>
+<a href="#complaint" class="btn">Register Complaint</a>
+<a href="https://wa.me/918700784156" class="btn blue">WhatsApp Us</a>
+</section>
+
+<section class="container" id="services">
+<div class="heading">
+<h2>Our Services</h2>
+<p>Solar system ke liye professional service aur customer support.</p>
+</div>
+<div class="cards">
+<div class="card">
+<div class="symbol">☀️</div>
+<h3>Solar Panel</h3>
+<p>Solar panel inspection, cleaning aur performance se judi service.</p>
+</div>
+<div class="card">
+<div class="symbol">⚡</div>
+<h3>Inverter Service</h3>
+<p>Inverter ki working, charging aur technical problems ke liye support.</p>
+</div>
+<div class="card">
+<div class="symbol">🔋</div>
+<h3>Battery Support</h3>
+<p>Battery backup, charging aur battery maintenance assistance.</p>
+</div>
+<div class="card">
+<div class="symbol">🛠️</div>
+<h3>Installation & Repair</h3>
+<p>Solar installation, wiring aur repair se judi customer assistance.</p>
+</div>
+</div>
+</section>
+
+<section class="container" id="complaint">
+<div class="heading">
+<h2>Customer Complaint Portal</h2>
+<p>Apni details bharein. Hamari team se WhatsApp par sampark karein.</p>
+</div>
+<div class="form-section">
+<form id="complaintForm">
+<div class="form-grid">
+<div>
+<label>Customer Name *</label>
+<input id="customer" required placeholder="Apna naam">
+</div>
+<div>
+<label>Mobile Number *</label>
+<input id="mobile" type="tel" required pattern="[0-9+ -]{10,15}" placeholder="Mobile number">
+</div>
+<div>
+<label>Village / City *</label>
+<input id="city" required placeholder="Gaon ya shehar">
+</div>
+<div>
+<label>Address</label>
+<input id="address" placeholder="Poora pata">
+</div>
+</div>
+
+<label>Solar Product</label>
+<select id="product">
+<option>Solar Panel</option>
+<option>Inverter</option>
+<option>Battery</option>
+<option>Solar Wiring</option>
+<option>Complete Solar System</option>
+<option>Other</option>
+</select>
+
+<label>Complaint Type (Multiple select kar sakte hain)</label>
+<div class="problem-list">
+<label><input type="checkbox" name="problem" value="Panel not working">Panel not working</label>
+<label><input type="checkbox" name="problem" value="Low power generation">Low power generation</label>
+<label><input type="checkbox" name="problem" value="Inverter problem">Inverter problem</label>
+<label><input type="checkbox" name="problem" value="Battery problem">Battery problem</label>
+<label><input type="checkbox" name="problem" value="Wiring problem">Wiring problem</label>
+<label><input type="checkbox" name="problem" value="Installation issue">Installation issue</label>
+<label><input type="checkbox" name="problem" value="Cleaning required">Cleaning required</label>
+<label><input type="checkbox" name="problem" value="Other">Other problem</label>
+</div>
+
+<label>Complaint Details</label>
+<textarea id="details" placeholder="Apni problem detail mein likhein..."></textarea>
+
+<button class="submit" type="submit">Submit Complaint on WhatsApp →</button>
+<p style="font-size:12px;color:#64748b;margin-top:12px">Submit karne par WhatsApp khulega. Message bhejne ke liye WhatsApp mein Send dabana hoga.</p>
+</form>
+</div>
+</section>
+
+<section class="container" id="contact">
+<div class="contact">
+<h2>Contact NSL Enterprises</h2>
+<p>Solar service aur complaint assistance ke liye humse sampark karein.</p>
+<p><strong>Phone:</strong> 8700784156</p>
+<a class="btn blue" href="tel:8700784156">Call Now</a>
+<a class="btn" href="https://wa.me/918700784156">Chat on WhatsApp</a>
+</div>
+</section>
+
+<section class="container">
+<div class="trust">
+<h2>Support Our Social Mission</h2>
+<p style="margin-top:10px;color:#64748b;line-height:1.7">Trust donation facility alag rakhi jayegi. Institution ka naam, verified bank details aur legal registration confirm hone ke baad hi donation collection activate hoga.</p>
+<span class="inactive">DONATION COLLECTION NOT ACTIVE</span>
+</div>
+</section>
+
+<footer>
+<strong>NSL ENTERPRISES</strong><br>
+Solar Service • Customer Care<br>
+Phone: 8700784156<br>
+<a href="https://wa.me/918700784156">WhatsApp Customer Support</a><br>
+© 2026 NSL Enterprises. All Rights Reserved.
+</footer>
+
+<a class="float" href="https://wa.me/918700784156">WhatsApp</a>
+
+<script>
+const BUSINESS_WHATSAPP = "918700784156";
+
+document.getElementById("complaintForm").addEventListener("submit", function(e){
+e.preventDefault();
+
+const problems = [...document.querySelectorAll('input[name="problem"]:checked')]
+.map(item => item.value);
+
+if(problems.length === 0){
+alert("Kripya kam se kam ek complaint type select karein.");
+return;
+}
+
+const message = `NSL ENTERPRISES - NEW CUSTOMER COMPLAINT
+
+Customer: ${document.getElementById("customer").value}
+Mobile: ${document.getElementById("mobile").value}
+City: ${document.getElementById("city").value}
+Address: ${document.getElementById("address").value}
+Product: ${document.getElementById("product").value}
+Problems: ${problems.join(", ")}
+Details: ${document.getElementById("details").value}`;
+
+const url = "https://wa.me/" + BUSINESS_WHATSAPP + "?text=" + encodeURIComponent(message);
+window.location.href = url;
+});
+</script>
+</body>
+</html>
